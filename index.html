@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <div class="contenedor">
+        <div class="dropdown">
+            <input type="text" class="seleccionado"
+            id="input" placeholder="Choose one" readonly>
+            <div class="opciones">
+                <div onclick="show('Home')" class="opcion"><span class="material-symbols-outlined">home</span>Home</div>
+                <div onclick="show('Explore')" class="opcion"><span class="material-symbols-outlined">public</span>Explore</div>
+                <div onclick="show('Help')" class="opcion"><span class="material-symbols-outlined">help</span>Help</div>
+                <div onclick="show('Exit')" class="opcion"><span class="material-symbols-outlined">logout</span>Exit</div>
+            </div>        
+         
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+    
+</body>
+</html>
